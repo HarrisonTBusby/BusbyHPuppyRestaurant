@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=FugazOne');
+@import url(https://fonts.googleapis.com/css?family=FugazOne);
 
 .Background{
     background-image: url("../Assets/bgtexture.jpg");
@@ -15,5 +15,10 @@
 }
 
 .Fugaz{
-    font-family: 'FugazOne', sans-serif;
+    font-family: 'Fugaz';
+}
+
+@font-face {
+    font-family: Fugaz;
+    src: url(../Fonts/FugazOne-Regular.ttf);
 }
