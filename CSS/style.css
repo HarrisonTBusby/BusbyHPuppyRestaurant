@@ -15,9 +15,40 @@
 .Fugaz{
     font-family: 'FugazOne', sans-serif;
 }
+
 .AboutMainColor{
 
-    background-color: #FFFFFF;
-
+    background-color: #FFFF;
+    text-align: left;
+    font-size: 20px;
+    word-spacing: 22;
+    
+    
     
 }
+.AboutMainHeader{
+    font-size: 50px;
+}
+
+.AboutMainPhoto{
+    height: 674.5px;
+    width: 674.5px;
+
+}
+
+.padding1{
+
+    padding-left: 140px;
+    padding-right: 140px;
+    
+}
+
+.padding2{
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 64px;
+    padding-bottom: 144px;
+
+}
+
+
