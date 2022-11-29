@@ -19,3 +19,58 @@
 .box {
     padding: 0 5px 0 5px;
 }
+
+/* This is for the Second Page: About Us Section */
+
+.AboutMainColor{
+
+    background-color: #FFFF;
+    text-align: left;
+    font-size: 20px;
+    word-spacing: 22;
+    
+    
+}
+.AboutMainHeader{
+    font-size: 50px;
+}
+
+.AboutMainPhoto{
+    height: 674.5px;
+    width: 674.5px;
+
+}
+
+.padding1{
+
+    padding-left: 140px;
+    padding-right: 140px;
+    
+}
+
+.padding2{
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 64px;
+    padding-bottom: 144px;
+
+}
+
+/* This for the Second Page: THE TEAM Section*/
+
+.centerText1{
+    text-align: center;
+
+}
+
+.OurTeamColor{
+
+    background-color: #FFFF;
+}
+
+.centerCard{
+
+    align-items: center;
+}
+
+
