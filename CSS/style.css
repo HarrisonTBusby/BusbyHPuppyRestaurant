@@ -16,13 +16,14 @@
     font-family: 'FugazOne', sans-serif;
 }
 
+/* This is for the Second Page: About Us Section */
+
 .AboutMainColor{
 
     background-color: #FFFF;
     text-align: left;
     font-size: 20px;
     word-spacing: 22;
-    
     
     
 }
@@ -49,6 +50,23 @@
     padding-right: 64px;
     padding-bottom: 144px;
 
+}
+
+/* This for the Second Page: THE TEAM Section*/
+
+.centerText1{
+    text-align: center;
+
+}
+
+.OurTeamColor{
+
+    background-color: #FFFF;
+}
+
+.centerCard{
+
+    align-items: center;
 }
 
 
