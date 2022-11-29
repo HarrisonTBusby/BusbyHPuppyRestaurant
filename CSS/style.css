@@ -1,0 +1,17 @@
+.Background{
+    background-image: url("../Assets/bgtexture.jpg");
+    background-size: 31%;
+}
+
+.FullWidth{
+    /* background-size:100vw; */
+    justify-content: left;
+}
+
+.Even{
+    justify-content: space-evenly;
+}
+
+.Fugaz{
+    font-family: 'FugazOne', sans-serif;
+}
