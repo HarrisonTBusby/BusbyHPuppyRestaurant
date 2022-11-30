@@ -68,5 +68,12 @@
 
     align-items: center;
 }
+.OurTeamPhoto{
+   align-items: space-around;
+   height: fit-content;
+   width: fit-content;
+}
+
+
 
 
