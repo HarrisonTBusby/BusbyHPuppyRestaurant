@@ -22,8 +22,8 @@
 
     background-color: #FFFF;
     text-align: left;
-    font-size: 20px;
-    word-spacing: 22;
+    font-size: 17px;
+    
     
     
 }
@@ -69,10 +69,30 @@
     align-items: center;
 }
 .OurTeamPhoto{
-   align-items: space-around;
-   height: fit-content;
-   width: fit-content;
+   padding-left: 16px;
+   padding-right: 16px;
+
 }
+
+.padding3{
+
+    padding-left: 124px;
+    padding-right: 124px;
+    
+}
+.column {
+    float: left;
+    width: 33.33%;
+    
+  }
+  .bgImg{
+    background-image: url(../Assets/bgtexture.jpg);
+    background-repeat: repeat;
+    background-size: 31%;
+  }
+  
+
+
 
 
 
