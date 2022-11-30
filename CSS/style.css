@@ -74,3 +74,26 @@
 }
 
 
+/* chris css below */
+body {
+    background-position: left top;
+    background-image: url("../Assets/bgtexture.jpg");
+    background-repeat: repeat;
+    max-width: 1920px;
+}
+footer
+{
+height: 300px;
+width: 100%;
+}
+.footer-left
+{
+text-align: left;
+float: left;
+
+}
+.footer-right
+{
+text-align: right;
+float: right;
+}
