@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=FugazOne);
+
 .Background{
     background-image: url("../Assets/bgtexture.jpg");
     background-size: 31%;
@@ -14,6 +16,7 @@
 
 .Fugaz{
     font-family: 'FugazOne', sans-serif;
+    color: #5F002B;
 }
 
 /* This is for the Second Page: About Us Section */
