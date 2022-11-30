@@ -3,11 +3,17 @@
 .Background{
     background-image: url("../Assets/bgtexture.jpg");
     background-size: 31%;
+    background-repeat: repeat;
 }
 
 .FullWidth{
     /* background-size:100vw; */
     justify-content: left;
+}
+
+.NavbarText{
+    padding-left: 12px;
+    margin-top: -15px;
 }
 
 .Even{
@@ -16,6 +22,7 @@
 
 .Fugaz{
     font-family: 'Fugaz';
+    color: #5F002B;
 }
 
 @font-face {
