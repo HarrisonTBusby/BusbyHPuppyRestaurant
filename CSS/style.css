@@ -90,6 +90,24 @@
     background-repeat: repeat;
     background-size: 31%;
   }
+  .FugazFont{
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+
+  }
+  .MontaukFont{
+    @font-face {
+        font-family: Montauk-Regular;
+        src: url();
+    }
+
+
+
+  }
+  
   
 
 
