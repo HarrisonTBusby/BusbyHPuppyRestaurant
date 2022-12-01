@@ -18,6 +18,7 @@
 
     font-family: 'Fugaz';
     color: #5F002B;
+    
 }
 
 @font-face {
@@ -31,8 +32,9 @@
 
     background-color: #FFFF;
     text-align: left;
-    font-size: 20px;
-    word-spacing: 22; 
+    font-size: 17px;
+    
+    
     
 }
 .AboutMainHeader{
@@ -54,9 +56,10 @@
 
 .padding2{
     padding-top: 30px;
-    padding-left: 40px;
+    padding-left: 15.5px;
     padding-right: 64px;
     padding-bottom: 144px;
+    
 
 }
 
@@ -76,5 +79,80 @@
 
     align-items: center;
 }
+.OurTeamPhoto{
+   padding-left: 16px;
+   padding-right: 16px;
+
+}
+
+.padding3{
+
+    padding-left: 124px;
+    padding-right: 124px;
+    
+}
+.column {
+    float: left;
+    width: 33.33%;
+    
+  }
+  .bgImg{
+    background-image: url(../Assets/bgtexture.jpg);
+    background-repeat: repeat;
+    background-size: 31%;
+  }
+ 
+  .MontaukFont{
+        font-family: Montauk-Regular;
+        color: #5F002B;
+        font-size: 14.5px;
+    
+}
+@font-face {
+    font-family: Montauk-Regular;
+    src: url(../Fonts/Montauk-Regular.otf);
+}
+
+.padding4{
+
+padding-top: 16px;
+padding-left: 6px;
+padding-right: 6px;
+border-radius: 0%;
+
+}
+
+.ContainerBox{
+
+    height: 675px;
+    width: 950px;
+
+
+
+}
+.PaddingBottom{
+
+    padding-bottom: 62px;
+}
+
+.PaddingRL{
+
+padding-left: 140px;
+padding-right: 140px;
+
+
+}
+
+.AlignTest{
+    text-align: left;
+    
+}
+
+  
+  
+
+
+
+
 
 
