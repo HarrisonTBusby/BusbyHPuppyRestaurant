@@ -14,6 +14,26 @@
     justify-content: space-evenly;
 }
 
+.Page1InfoBox {
+    color: #FFFFFF;
+
+    background-color: #ffffff;
+    position: absolute;
+    left: 725px;
+    width: 730px;
+    height: 400px;
+}
+
+.Page1HeroImages{
+    position: absolute;
+    left: 0px;
+    margin-top: 256px;
+}
+
+.Page1Text{
+    
+}
+
 .Fugaz{
 
     font-family: 'Fugaz';
