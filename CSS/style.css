@@ -15,8 +15,14 @@
 }
 
 .Fugaz{
+
     font-family: 'Fugaz';
     color: #5F002B;
+}
+
+@font-face {
+    font-family: Fugaz;
+    src: url(../Fonts/FugazOne-Regular.ttf);
 }
 
 /* This is for the Second Page: About Us Section */
