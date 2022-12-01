@@ -55,9 +55,10 @@
 
 .padding2{
     padding-top: 30px;
-    padding-left: 40px;
+    padding-left: 15.5px;
     padding-right: 64px;
     padding-bottom: 144px;
+    
 
 }
 
@@ -99,23 +100,48 @@
     background-repeat: repeat;
     background-size: 31%;
   }
-  .FugazFont{
+ 
+  .MontaukFont{
+        font-family: Montauk-Regular;
+        color: #5F002B;
+        font-size: 14.5px;
+    
+}
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: Montauk-Regular;
+    src: url(../Fonts/Montauk-Regular.otf);
 }
 
+.padding4{
 
-  }
-  .MontaukFont{
-    @font-face {
-        font-family: Montauk-Regular;
-        src: url();
-    }
+padding-top: 16px;
+padding-left: 6px;
+padding-right: 6px;
+border-radius: 0%;
+
+}
+
+.ContainerBox{
+
+    height: 675px;
+    width: 950px;
 
 
 
-  }
+}
+.PaddingBottom{
+
+    padding-bottom: 62px;
+}
+
+.PaddingRL{
+
+padding-left: 140px;
+padding-right: 140px;
+
+
+}
+
   
   
 
