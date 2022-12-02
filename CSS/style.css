@@ -7,7 +7,8 @@
 
 .FullWidth{
     /* background-size:100vw; */
-    justify-content: left;
+    justify-content: center;
+    margin-left: 100px;
 }
 
 .Even{
@@ -16,20 +17,32 @@
 
 .Page1InfoBox {
     background-color: #ffffff;
-    position: absolute;
+    display: flex;
+  flex-flow: column;
+  height: 80%;
+    /* position: absolute;
     left: 725px;
     width: 730px;
-    height: 400px;
+    height: 443px; */
 }
 
 .Page1HeroImages{
-    position: absolute;
+
     left: 0px;
-    margin-top: 256px;
+    margin-top: 60px;
+    align-self:baseline;
+    display: flex;
+    flex-flow: column;
+}
+
+.Page1Header{
+    margin-top: 30px;
+    margin-left: 30px;
 }
 
 .Page1Text{
-    
+    margin-left: 30px;
+    padding-right: 35px;
 }
 
 .Fugaz{
@@ -43,6 +56,15 @@
     src: url(../Fonts/FugazOne-Regular.ttf);
 }
 
+.MontaukR{
+    font-family: Montauk;
+    color:#5F002B
+}
+
+@font-face {
+    font-family: Montauk;
+    src: url(../Fonts/Montauk-Bold.otf);
+}
 /* This is for the Second Page: About Us Section */
 
 .AboutMainColor{
