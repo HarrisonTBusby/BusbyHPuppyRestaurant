@@ -5,6 +5,11 @@
     background-size: 31%;
 }
 
+.PhotoBorder{
+    background-color: white;
+    padding: 8px 8px;
+}
+
 .FullWidth{
     /* background-size:100vw; */
     justify-content: center;
@@ -15,11 +20,16 @@
     justify-content: space-evenly;
 }
 
+.AlignEnd{
+    align-self: flex-end;
+}
+
 .Page1InfoBox {
     background-color: #ffffff;
     display: flex;
   flex-flow: column;
-  height: 80%;
+  height: 100%;
+  
     /* position: absolute;
     left: 725px;
     width: 730px;
@@ -29,7 +39,7 @@
 .Page1HeroImages{
 
     left: 0px;
-    margin-top: 100px;
+    margin-top: 44px;
     align-self:baseline;
     display: flex;
     flex-flow: column;
@@ -67,7 +77,7 @@
 
 @font-face {
     font-family: Montauk;
-    src: url(../Fonts/Montauk-Light.otf);
+    src: url(../Fonts/Montauk-Regular.otf);
 }
 /* This is for the Second Page: About Us Section */
 
