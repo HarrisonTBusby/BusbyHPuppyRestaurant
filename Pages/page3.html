@@ -1,37 +1,95 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="../CSS/style.css">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="../CSS/style.css">
 </head>
-  <body class = "Background">
-    <div class="div">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-            <div class="navbar-brand col-6" href="#"><img src="../assets/MuzzlesLogo.png" alt="muzzle logo">
+
+<body class="Background">
+  <div class="div">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="navbar-brand col-6" href="#"><img src="../assets/MuzzlesLogo.png" alt="muzzle logo">
+          </div>
+          <div class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </div>
+          <div class="col-4">
+            <div class="d-flex justify-content-between NavbarText" id="navbar-Nav">
+              <a class="nav-link active Fugaz" aria-current="page" href="#">About</a>
+              <a class="nav-link active Fugaz" aria-current="page" href="#">Menu</a>
+              <a class="nav-link active Fugaz" aria-current="page" href="#">Catering</a>
+              <a class="nav-link active Fugaz" aria-current="page" href="#">Photo</a>
             </div>
-            <div class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </div>
-              <div class="col-4">
-                <div class="d-flex justify-content-between NavbarText" id="navbar-Nav">
-                    <a class="nav-link active Fugaz" aria-current="page" href="#">About</a>
-                    <a class="nav-link active Fugaz" aria-current="page" href="#">Menu</a>
-                    <a class="nav-link active Fugaz" aria-current="page" href="#">Catering</a>
-                    <a class="nav-link active Fugaz" aria-current="page" href="#">Photo</a>
-              </div>
           </div>
         </div>
-        </nav>
+      </nav>
+    </div>
+  </div>
+
+  <div class="container OurMenuPadding">
+    <h1 class="Fugaz OurTeamColor centerText1">Our Menu</h1>
+  </div>
+
+  <!-- This should be the card that shows off the menu. The whole menu is comprised of 4 Long cards that create it. -->
+
+  <div class="container PaddingRL d-flex justify-content-center">
+    <div class="row">
+      <!-- Sandwich Section -->
+      <div class="col-6 OurTeamColor2">
+        <img src="../Assets/menubeef.jpg" alt="">
+        <p class="MenuHeader">Sandwiches</p>
+        <p class="MenuText">All sandwiches come with an side of crispy fries</p>
+        <br>
+        <div class="menu-item-title-style"><div>asdasdada</div><div>15.99</div></div>
       </div>
+      <div class="col-6 OurTeamColor2">
+        <img src="../Assets/menuseafood.jpg" alt="">
+        <p class="MenuHeader">Seafood</p>
+
       </div>
-    <h1>Hello, world!</h1>
-    <script src="../app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </body>
+    </div>
+
+    <!-- This is the second section of cards -->
+    <div class="row">
+      <!-- This is for Grill Meats -->
+      <div class="col-6">
+        <div class="card" style="width: auto;">
+          <img src="../Assets/menumeat.jpg" class="card-image" alt="...">
+          <div class="card-body card-image OurTeamColor">
+            <p class="MenuHeader">On the grill</p>
+            <p class="MenuText">Served with corn, cheddar biscuits, and your choice of coleslaw or potato salad.</p>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <!-- This is for Desserts -->
+      <div class="col-6">
+        <div class="card" style="width: auto;">
+          <img src="../Assets/menudesserts.jpg" class="card-image" alt="...">
+          <div class="card-body card-image OurTeamColor">
+            <p class="MenuHeader">Desserts</p>
+            <p class="MenuText">A shot of esspresso can be added to any dessert for an additional $2.</p>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
