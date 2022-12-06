@@ -5,6 +5,11 @@
     background-size: 31%;
 }
 
+.WhiteBackground{
+    width: 200%;
+    background-color: white;
+}
+
 .PhotoBorder{
     background-color: white;
     padding: 8px 8px;
@@ -22,6 +27,10 @@
 
 .AlignEnd{
     align-self: flex-end;
+}
+
+.AlignCenter{
+    align-items: flex-start;
 }
 
 .Page1InfoBox {
