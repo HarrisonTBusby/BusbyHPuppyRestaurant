@@ -228,7 +228,20 @@ float: right;
     font-size: 20px;
     color:#5F002B;
 }
+
+/* page 5 chris */
+
 .PhotoBorder{
     background-color: white;
     padding: 8px 8px;
+}
+
+.montaukFont{
+    font-family: "Montauk-Regular";
+    font-size: 10px;
+    color: #5F002B;
+}
+.fugazFont {
+    font-family: "FugazO";
+    color: #5F002B !important;
 }
