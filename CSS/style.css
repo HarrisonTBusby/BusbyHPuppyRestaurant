@@ -190,7 +190,52 @@ padding-right: 140px;
     text-align: left;
     
 }
+.MenuText{
 
+    font-family: Montauk-Regular;
+    color: #5F002B;
+    font-size: 20px;
+}
+.MenuHeader{
+
+    font-family: Fugaz;
+    color: #5F002B;
+    font-size: 30px;
+}
+.card-image{
+    height: 250px; 
+    width:812px ; 
+ }
+ .OurMenuPadding{
+    padding-bottom: 36px;
+ }
+
+  .PaddingRL2{
+
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .textAlignRight{
+
+    text-align: right;
+  }
+  .OurTeamColor2{
+    width: auto;
+    background-color: #FFFF;
+    
+  }
+
+  .menu-item-title-style{
+    font-family: Montauk-Regular;
+    font-size: 2.188rem;
+    color: #5F002B;
+    display: flex;
+    justify-content:space-between;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+
+  }
   
   
 
