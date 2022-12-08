@@ -7,11 +7,42 @@
 
 .FullWidth{
     /* background-size:100vw; */
-    justify-content: left;
+    justify-content: center;
+    margin-left: 100px;
 }
 
 .Even{
     justify-content: space-evenly;
+}
+
+.Page1InfoBox {
+    background-color: #ffffff;
+    display: flex;
+  flex-flow: column;
+  height: 80%;
+    /* position: absolute;
+    left: 725px;
+    width: 730px;
+    height: 443px; */
+}
+
+.Page1HeroImages{
+
+    left: 0px;
+    margin-top: 100px;
+    align-self:baseline;
+    display: flex;
+    flex-flow: column;
+}
+
+.Page1Header{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.Page1Text{
+    margin-left: 30px;
+    padding-right: 35px;
 }
 
 .Fugaz{
@@ -25,7 +56,19 @@
     font-family: Fugaz;
     src: url(../Fonts/FugazOne-Regular.ttf);
 }
+.box {
+    padding: 0 5px 0 5px;
+}
 
+.MontaukR{
+    font-family: Montauk;
+    color:#5F002B
+}
+
+@font-face {
+    font-family: Montauk;
+    src: url(../Fonts/Montauk-Light.otf);
+}
 /* This is for the Second Page: About Us Section */
 
 .AboutMainColor{
@@ -264,3 +307,49 @@ padding-right: 140px;
 
 
 
+/* chris css below */
+body {
+    background-position: left top;
+    background-image: url("../Assets/bgtexture.jpg");
+    background-repeat: repeat;
+    max-width: 1920px;
+}
+footer
+{
+height: 300px;
+width: 100%;
+}
+.footer-left
+{
+text-align: left;
+float: left;
+
+}
+.footer-right
+{
+text-align: right;
+float: right;
+}
+.montaukFont
+{
+    font-family: Montauk;
+    font-size: 20px;
+    color:#5F002B;
+}
+
+/* page 5 chris */
+
+.PhotoBorder{
+    background-color: white;
+    padding: 8px 8px;
+}
+
+.montaukFont{
+    font-family: "Montauk-Regular";
+    font-size: 10px;
+    color: #5F002B;
+}
+.fugazFont {
+    font-family: "FugazO";
+    color: #5F002B !important;
+}
