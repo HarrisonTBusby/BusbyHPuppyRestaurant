@@ -180,7 +180,7 @@ border-radius: 0%;
 }
 .PaddingBottom{
 
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 .PaddingBottom2{
     padding-bottom: 92px;
@@ -297,6 +297,10 @@ padding-right: 140px;
   }
   .Corners{
     border-radius: 0%;
+  }
+  .imgSizing{
+    height: auto;
+    width: auto;
   }
   
   
