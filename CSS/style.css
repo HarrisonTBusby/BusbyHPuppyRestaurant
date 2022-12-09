@@ -71,6 +71,9 @@ h6{
     background-color: white;
     padding: 8px 8px;
 }
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
 
 .FullWidth{
     /* background-size:100vw; */
