@@ -95,16 +95,42 @@ HeroHeight{
     align-items: flex-start;
 }
 
+
+.Page1HeroImage{
+        background-image: url("/Assets/homeHero.jpg") ;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        height: 40vh;
+        width: 100vw;
+        margin-left: -16px;
+}
+
 .Page1InfoBox {
     background-color: #ffffff;
     display: flex;
-  flex-flow: column;
-  height: 100%;
-  
+    flex-flow: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-left: 36vw;
+    height: 51vh;
+
     /* position: absolute;
     left: 725px;
     width: 730px;
     height: 443px; */
+}
+
+.Page1InfoBoxSmall {
+    background-color: #ffffff;
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+    justify-content: start;
+    align-items: center;
+    height: 30vh;
+    width: 95vw;
 }
 
 .Page1HeroImages{
