@@ -302,6 +302,14 @@ padding-right: 140px;
     height: auto;
     width: auto;
   }
+  .flexWrap{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .alignRight{
+    display: flex;
+    justify-content: flex-end;
+  }
   
   
   
