@@ -151,6 +151,11 @@
         font-size: 14.5px;
     
 }
+.MontaukFont2{
+    font-family: Montauk-Regular;
+    color: #5F002B;
+    font-size: 25px;
+}
 @font-face {
     font-family: Montauk-Regular;
     src: url(../Fonts/Montauk-Regular.otf);
@@ -175,7 +180,10 @@ border-radius: 0%;
 }
 .PaddingBottom{
 
-    padding-bottom: 62px;
+    padding-bottom: 20px;
+}
+.PaddingBottom2{
+    padding-bottom: 92px;
 }
 
 .PaddingRL{
@@ -190,7 +198,119 @@ padding-right: 140px;
     text-align: left;
     
 }
+.MenuText{
 
+    font-family: Montauk-Regular;
+    color: #5F002B;
+    font-size: 16px;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+}
+.MenuHeader{
+
+    font-family: Fugaz;
+    color: #5F002B;
+    font-size: 30px;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+}
+.card-image{
+    height: 250px; 
+    width:812px ; 
+ }
+ .OurMenuPadding{
+    padding-left: 140px;
+    padding-right: 140px;
+ }
+
+  .PaddingRL2{
+
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .textAlignRight{
+
+    text-align: right;
+  }
+  .textAlignLeft{
+    text-align: left;
+  }
+  .OurTeamColor2{
+    /* width: auto; */
+    background-color: #FFFF;
+    
+  }
+
+  .menu-item-title-style{
+    font-family: Montauk-Regular;
+    font-size: 2.188rem;
+    color: #5F002B;
+    display: flex;
+    justify-content:space-between;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+
+  }
+  .PictureScaling{
+
+    width: 100%;
+    display: flex;
+    
+  }
+  .menu-item-title-style2{
+    font-family: Montauk-Regular;
+    font-size: 1rem;
+    color: #5F002B;
+    display: flex;
+    justify-content:space-between;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+  }
+  .BigPadding{
+    padding-top: 20px;
+  }
+  
+  .paddingMenu1{
+    padding-left: 10px;
+  }
+  .paddingMenu2{
+    padding-right: 10px;
+  }
+
+  .HTC{
+    background-color: #FFFF;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  .asd{
+    width: auto;
+  }
+  .Stretch{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+  }
+  .Corners{
+    border-radius: 0%;
+  }
+  .imgSizing{
+    height: auto;
+    width: auto;
+  }
+  .flexWrap{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .alignRight{
+    display: flex;
+    justify-content: flex-end;
+  }
+  
   
   
 
@@ -228,3 +348,24 @@ float: right;
     font-size: 20px;
     color:#5F002B;
 }
+
+/* page 5 chris */
+
+.PhotoBorder{
+    background-color: white;
+    padding: 8px 8px;
+}
+
+.montaukFont{
+    font-family: "Montauk-Regular";
+    font-size: 10px;
+    color: #5F002B;
+}
+.fugazFont {
+    font-family: "FugazO";
+    color: #5F002B !important;
+}
+.generalPadding{
+    padding:20px;    
+}
+
