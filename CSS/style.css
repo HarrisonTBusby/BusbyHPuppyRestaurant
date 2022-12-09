@@ -5,8 +5,47 @@
     background-size: 31%;
 }
 
+.Page4Hero{
+    background-image: url("/Assets/cateringHero.jpg") ;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    height: 60vh;
+    width: 86vw;
+}
+
+.Page4Maine{
+    background-image: url("/Assets/cateringMaine.jpg") ;
+    background-size: cover;
+    background-position: center;
+    margin-left: 5.5vw;
+    height: 51vh;
+    width: 35vw;
+}
+
+h6{
+    font-size:medium;
+}
+.Page4InfoBox{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-left: 36vw;
+    height: 51vh;
+    width: 50vw;
+}
+
+.Page4TripleImage{
+    margin-left: -1vw;
+    height: 40vh;
+    width: 28vw;
+}
+.MarginText{
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
 .WhiteBackground{
-    width: 200%;
+    width: 86vw;
     background-color: white;
 }
 
@@ -25,10 +64,15 @@
     justify-content: space-evenly;
 }
 
-.AlignEnd{
-    align-self: flex-end;
+.FlexCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+HeroHeight{
+    height: 5.5r;
+}
 .AlignCenter{
     align-items: flex-start;
 }
@@ -52,6 +96,10 @@
     align-self:baseline;
     display: flex;
     flex-flow: column;
+}
+
+.PaddingLeft{
+    padding-left: 5.5vw;
 }
 
 .Page1Header{
