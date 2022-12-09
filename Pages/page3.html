@@ -2,38 +2,272 @@
 <html lang="en">
 
 <head>
- <meta charset="utf-8" />
- <meta name="viewport" content="width=device-width, initial-scale=1" />
- <title>Bootstrap demo</title>
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
- <link rel="stylesheet" href="../CSS/style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="../CSS/style.css">
 </head>
-  <body class = "Background">
-    <div class="div">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-            <div class="navbar-brand col-6" href="#"><img src="../assets/MuzzlesLogo.png" alt="muzzle logo">
+
+<body class="Background">
+  <div class="div">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="navbar-brand col-6" href="#"><img src="../assets/MuzzlesLogo.png" alt="muzzle logo">
+          </div>
+          <div class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </div>
+          <div class="col-4">
+            <div class="d-flex justify-content-between NavbarText" id="navbar-Nav">
+              <a class="nav-link active Fugaz" aria-current="page" href="#">About</a>
+              <a class="nav-link active Fugaz" aria-current="page" href="#">Menu</a>
+              <a class="nav-link active Fugaz" aria-current="page" href="#">Catering</a>
+              <a class="nav-link active Fugaz" aria-current="page" href="#">Photo</a>
             </div>
-            <!-- <div class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </div> -->
-              <div class="col-4">
-                <div class="d-flex justify-content-between NavbarText" id="navbar-Nav">
-                    <a class="nav-link active Fugaz" aria-current="page" href="#">About</a>
-                    <a class="nav-link active Fugaz" aria-current="page" href="#">Menu</a>
-                    <a class="nav-link active Fugaz" aria-current="page" href="#">Catering</a>
-                    <a class="nav-link active Fugaz" aria-current="page" href="#">Photo</a>
-              </div>
           </div>
         </div>
-        </nav>
+      </nav>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row PaddingBottom d-flex justify-content-center">
+      <div class="col-11 OurTeamColor">
+    <h1 class="Fugaz centerText1">Our Menu</h1>
+    </div>
+  </div>
+  </div>
+
+  <!-- This should be the card that shows off the menu. The whole menu is comprised of 4 Long cards that create it. -->
+
+  
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Sandwich Section -->
+      <div class="col-1"></div>
+      <div class="col-lg-5 col-12">
+        <div class="card">
+          <img src="../Assets/menubeef.jpg" class="card-img-top d-none d-sm-block" alt="...">
+          <div class="card-body">
+            <h5 class="Fugaz">Sandwiches</h5>
+            <p class="MontaukFont">All sandwiches come with an side of crispy fries</p>
+            <br>
+            <div class="row">
+              <div class="col-xl-10 col-lg-8 col-sm-6 col-xs-4 MontaukFont2">Sizzling Steak Sandwich</div>
+              <div class="col-xl-2 col-lg-4 col-sm-6 col-xs-8 textAlignRight MontaukFont2">$15.99</div>
+            </div>
+            <div class="MontaukFont">Open faced steak sandwich with grilled belle peppers and fried onions.</div>
+            <hr>
+            <div class="row">
+              <div class="col-xl-10 col-lg-8 col-sm-6 col-xs-4 MontaukFont2">Tenderloin Sliders</div>
+              <div class="col-xl-2 col-lg-4 col-sm-6 col-xs-8 textAlignRight MontaukFont2">$13.99</div>
+            </div>
+            <div class="MontaukFont">Three beef tenderloin sliders with horseradish cream and blackberry bbq.</div>
+            <hr>
+            <div class="row">
+              <div class="col-xl-10 col-lg-8 col-sm-6 col-xs-4 MontaukFont2">Grilled Chicken Panini</div>
+              <div class="col-xl-2 col-lg-4 col-sm-6 col-xs-8 textAlignRight MontaukFont2">$10.99</div>
+            </div>
+            <div class="MontaukFont">Grilled chicken with Monterey jack, romaine lettuce, tomato, and cilantro.</div>
+            <hr>
+            <div class="row">
+              <div class="col-xl-10 col-lg-8 col-sm-6 col-xs-4 MontaukFont2">Smoked Turkey Club</div>
+              <div class="col-xl-2 col-lg-4 col-sm-6 col-xs-8 textAlignRight MontaukFont2">$8.99</div>
+            </div>
+            <div class="MontaukFont">Smoked deli turkey, maple bacon, cranberry aioli, lettuce and tomatoes.</div>
+            <hr>
+            <div class="row">
+              <div class="col-xl-10 col-lg-8 col-sm-6 col-xs-4 MontaukFont2">Tuna Sandwich</div>
+              <div class="col-xl-2 col-lg-4 col-sm-6 col-xs-8 textAlignRight MontaukFont2">$6.99</div>
+            </div>
+            <div class="MontaukFont">Tuna salad with sprouts, sliced tomatoes and cilantro lime mayo on toast.</div>
+            <hr>
+          </div>
+          </div>
+        </div>
+        
+      
+    
+
+      <!--This is the Seafood Section  -->
+      <div class="col-lg-5 col-12">
+        <div class="card h-100">
+          <img src="../Assets/menuseafood.jpg" class="card-img-top d-none d-sm-block" alt="...">
+          <div class="card-body">
+            <h5 class="Fugaz">Seafood</h5>
+            <p class="MontaukFont">All seafood comes with a side of rice pilaf and grilled vegetables</p>
+            <br>
+            <div class="row">
+              <div class="col-xl-10 col-lg-8 col-sm-6 col-xs-4 MontaukFont2">Honey Shrimp Skewers</div>
+              <div class="col-xl-2 col-lg-4 col-sm-6 col-xs-8 textAlignRight MontaukFont2">$15.99</div>
+            </div>
+            <div class="MontaukFont">Ten honey glazed shrimps grilled with sesame seeds and rosemary.</div>
+            <hr>
+            <div class="row">
+              <div class="col-xl-10 col-lg-8 col-sm-6 col-xs-4 MontaukFont2">Grilled Salmon</div>
+              <div class="col-xl-2 col-lg-4 col-sm-6 col-xs-8 textAlignRight MontaukFont2">$13.99</div>
+            </div>
+            <div class="MontaukFont">Salmon grilled in a lime butter sauce.</div>
+            <hr>
+            <div class="row">
+              <div class="col-xl-10 col-lg-8 col-sm-6 col-xs-4 MontaukFont2">Grilled Tilapia</div>
+              <div class="col-xl-2 col-lg-4 col-sm-6 col-xs-8 textAlignRight MontaukFont2">$10.99</div>
+            </div>
+            <div class="MontaukFont">A whole grilled tilapia cooked with smoked paprika.</div>
+            <hr>
+            <div class="row">
+              <div class="col-xl-10 col-lg-8 col-sm-6 col-xs-4 MontaukFont2">Parmesan Fish Sticks</div>
+              <div class="col-xl-2 col-lg-4 col-sm-6 col-xs-8 textAlignRight MontaukFont2">$8.99</div>
+            </div>
+            <div class="MontaukFont">Sliced salmon in parmesan breading served with lemon dill tartar sauce.</div>
+            <hr>
+            
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-1"></div>
+      
       </div>
       </div>
-    <h1>Hello, world!</h1>
-    <script src="../app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </body>
+      
+
+      <div class="container-fluid BigPadding">
+        <div class="row">
+
+      <!-- Grilled Meat Section -->
+      <div class="col-1"></div>
+      <div class="col-lg-5 col-12">
+        <div class="card">
+          <img src="../Assets/menumeat.jpg" class="card-img-top d-none d-sm-block" alt="...">
+          <div class="card-body">
+            <h5 class="Fugaz">On the Grill</h5>
+            <p class="MontaukFont">Served with corn, cheddar biscuits, and your choice of coleslaw or potato salad.</p>
+            <br>
+            <div class="row">
+              <div class="col-xl-10 col-lg-8 col-sm-6 col-xs-4 MontaukFont2">Baby Back - Full Rack</div>
+              <div class="col-xl-2 col-lg-4 col-sm-6 col-xs-8 textAlignRight MontaukFont2">$19.99</div>
+            </div>
+            <div class="MontaukFont">A full rack of pork babyback ribs grilled and glazed with blackberry bbq.</div>
+            <hr>
+            <div class="row">
+              <div class="col-xl-10 col-lg-8 col-sm-6 col-xs-4 MontaukFont2">Baby Back - Half Rack</div>
+              <div class="col-xl-2 col-lg-4 col-sm-6 col-xs-8 textAlignRight MontaukFont2">$13.99</div>
+            </div>
+            <div class="MontaukFont">A half rack of pork babyback ribs grilled and glazed with blackberry bbq.</div>
+            <hr>
+            <div class="row">
+              <div class="col-xl-10 col-lg-8 col-sm-6 col-xs-4 MontaukFont2">Boneless Ribeye</div>
+              <div class="col-xl-2 col-lg-4 col-sm-6 col-xs-8 textAlignRight MontaukFont2">$25.99</div>
+            </div>
+            <div class="MontaukFont">A three inch thick boneless ribeye grilled in a rosemary rub and butter</div>
+            <hr>
+            <div class="row">
+              <div class="col-xl-10 col-lg-8 col-sm-6 col-xs-4 MontaukFont2">Smoked Turkey Club</div>
+              <div class="col-xl-2 col-lg-4 col-sm-6 col-xs-8 textAlignRight MontaukFont2">$8.99</div>
+            </div>
+            <div class="MontaukFont">Smoked deli turkey, maple bacon, cranberry aioli, lettuce and tomatoes.</div>
+            <hr>
+            <div class="row">
+              <div class="col-xl-10 col-lg-8 col-sm-6 col-xs-4 MontaukFont2">Tuna Sandwich</div>
+              <div class="col-xl-2 col-lg-4 col-sm-6 col-xs-8 textAlignRight MontaukFont2">$6.99</div>
+            </div>
+            <div class="MontaukFont">Tuna salad with sprouts, sliced tomatoes and cilantro lime mayo on toast.</div>
+            <hr>
+
+          
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Dessert Section -->
+      <div class="col-lg-5 col-12">
+        <div class="card">
+          <img src="../Assets/menudesserts.jpg" class="card-img-top d-none d-sm-block" alt="...">
+          <div class="card-body">
+            <h5 class="Fugaz">Desserts</h5>
+            <p class="MontaukFont">A shot of esspresso can be added to any dessert for an additional $2.</p>
+            <br>
+            <div class="row">
+              <div class="col-xl-10 col-lg-8 col-sm-6 col-xs-4 MontaukFont2">Double Walnunt Brownies</div>
+              <div class="col-xl-2 col-lg-4 col-sm-6 col-xs-8 textAlignRight MontaukFont2">$8.99</div>
+            </div>
+            <div class="MontaukFont">Two brownies with a walnut crust, ice cream and chocolate sauce.</div>
+            <hr>
+            <div class="row">
+              <div class="col-xl-10 col-lg-8 col-sm-6 col-xs-4 MontaukFont2">Cheesecake With Chocolate Sauce</div>
+              <div class="col-xl-2 col-lg-4 col-sm-6 col-xs-8 textAlignRight MontaukFont2">$7.99</div>
+            </div>
+            <div class="MontaukFont">Cheesecake with ice cream, chocolate shavings and chocolate sauce.  </div>
+            <hr>
+            <div class="row">
+              <div class="col-xl-10 col-lg-8 col-sm-6 col-xs-4 MontaukFont2">Triple Chocolate Brownies</div>
+              <div class="col-xl-2 col-lg-4 col-sm-6 col-xs-8 textAlignRight MontaukFont2">$6.99</div>
+            </div>
+            <div class="MontaukFont">A triple chocolate brownie served with vanilla ice cream and walnuts.</div>
+            <hr>
+            <div class="row">
+              <div class="col-xl-10 col-lg-8 col-sm-6 col-xs-4 MontaukFont2">Housemade Shaved Gelato and Cookies</div>
+              <div class="col-xl-2 col-lg-4 col-sm-6 col-xs-8 textAlignRight MontaukFont2">$5.99</div>
+            </div>
+            <div class="MontaukFont">Your choice of shaved gelato with whole cookies. Options change daily.</div>
+            <hr>
+            <div class="row">
+              <div class="col-xl-10 col-lg-8 col-sm-6 col-xs-4 MontaukFont2">Grilled peaches and Ice Cream</div>
+              <div class="col-xl-2 col-lg-4 col-sm-6 col-xs-8 textAlignRight MontaukFont2">$4.99</div>
+            </div>
+            <div class="MontaukFont">Grilled peaches in cinnamon and brown sugar glaze with ice cream.</div>
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div class="col-1"></div>
+
+       
+
+    </div>
+
+    <!-- This is for the footer -->
+    <div class="mt-5 PaddingRL">
+    <footer>
+      <div class="row">
+        <div class="col-lg-6 d-flex justify-content-lg-start justify-content-center">
+          <p class="MontaukFont2">1357 Mutt Street Rottweiler CA 12345</p>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-lg-end justify-content-center">
+          <img src="../Assets/CompanyLogo.png" height="30px" alt="footer logo">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 d-flex justify-content-lg-start justify-content-center">
+          <p class="MontaukFont2">Phone: 123-456-7890</p>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-lg-end justify-content-center">
+          <p class="MontaukFont2 flexWrap"> Copyright &copy Muzzles Restraunt</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+    </div>
+
+    <!-- Footer -->
+    
+    
+  
+
+  
+  
+
+  <script src="../app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
